@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.epages.doclets</groupId>
+  <artifactId>conf-doclet</artifactId>
+  <version>0.1</version>
+  <name>conf-doclet</name>
+  <description>Java Doclet for extracting configuration properties from java code</description>
+  <url>https://github.com/mircea-pop/conf-doclet.git</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mircea-pop</id>
+      <name>Mircea Pop</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:mircea-pop/conf-doclet.git</connection>
+    <developerConnection>scm:git@github.com:mircea-pop/conf-doclet.git</developerConnection>
+    <url>scm:git@github.com:mircea-pop/conf-doclet.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>1.9.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.0.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
